@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2</title>
+</head>
+<body>
+    <h1>Información sobre el producto</h1>
+    <form action ="" method="post">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" name="nombre" value="">
+            <br><br>
+            <label for="descripcion">Descripción</label><br>
+            <textarea id="descripcion" name="txtDescripcion" cols="40" rows="5"></textarea>
+            <br><br>
+                 Foto        
+                <input type="file" name="fileAdjunto" >
+                <br><br>
+                <input type="checkbox" name="chck_añadir contador de vistas" value="contador">Añadir contador de vistas<br>
+
+           
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <form action ="" method="pot"></form>
+            <legend>Datos económicos</legend> 
+            <label for="nombre">Precio</label>
+           
+            <input type="text" name="precio" value="">€ 
+            <label for="impuestos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impuestos</label>
+            <select id="impuestos" name="SelectImpuestos">
+                <option value="" selected="selected">-Selecciona-</option>
+                <option value="4%">4%</option>
+                <option value="7%">7%</option>
+                <option value="16%">16%</option>
+                <option value="25%">25%</option>
+            </select>
+            <br><br>
+            Promoción
+            <br>
+            <input type="radio" name="rbPromocion" value="Ninguno"> Ninguno <br>
+            <input type="radio" name="rbPromocion" value="Transporte gratuito">Transporte gratuito<br>
+            <input type="radio" name="rbPromocion" value="Descuento 5%"> Descuento 5% <br>
+        </fieldset>
+    </form>
+</body>
+</html>
